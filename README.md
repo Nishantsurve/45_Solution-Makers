@@ -1,4 +1,4 @@
-# 45_Solution-Makers
+# 45_Solution Makers
 We build innovative and interesting solution
 
 Domain field-EdTech
