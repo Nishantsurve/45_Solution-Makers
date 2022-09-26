@@ -1,0 +1,121 @@
+<!DOCTYPE html>
+<html>
+<head>
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<style type="text/css">
+body {font-family: Arial, Helvetica, sans-serif;}
+form {border: 5px solid #f1f1f1;}
+label{
+    display:inline block;
+}
+input[type=text] {
+  width: 20cm;
+  padding: 12px 20px;
+  margin: 8px 10px;
+  border: 1px solid #ccc;
+  box-sizing: border-box;
+  
+  
+}
+input[type=password]{
+    width: 20cm;
+  padding: 12px 20px;
+  margin: 8px 10px;
+  border: 1px solid #ccc;
+  box-sizing: border-box;
+  
+}
+input[type=Age]{
+    width: 10cm;
+  padding: 12px 20px;
+  margin: 8px 10px;
+  border: 1px solid #ccc;
+  box-sizing: border-box;
+  
+}
+input[type=college_name]{
+    width: 20cm;
+  padding: 12px 20px;
+  margin: 8px 10px;
+  border: 1px solid #ccc;
+  box-sizing: border-box;
+  display: inline block;
+}
+button {
+  background-color: #ADD8E6;
+  color: black;
+  padding: 10px 30px;
+  margin: 8px 0;
+  border: none;
+  cursor: pointer;
+  width: 30%;
+}
+
+button:hover {
+  opacity: 1.5;
+}
+
+.cancelbtn {
+  width: auto;
+  padding: 10px 18px;
+  background-color: #f44336;
+}
+
+.container {
+  padding: 60px;
+}
+
+span.psw {
+  float: right;
+  padding-top: 10px;
+}
+
+
+@media screen and (max-width: 400px) {
+  span.psw {
+     display: block;
+     float: none;
+  }
+  .cancelbtn {
+     width: 100%;
+  }
+}
+</style>
+</head>
+<body>
+<h2>Sign Up</h2>
+
+<form method="post" action="/signup">
+
+  <div class="container">
+    <label for="uname"><b>Username</b></label>
+    <input type="text" placeholder="Enter Username" name="uname" required>
+    <br>
+
+    <label for="psw"><b>Password</b></label>
+    <input type="password" placeholder="Enter Password" name="psw" required>
+    <br> 
+    
+    <label for="Age"><b>Age</b></label>
+    <input type="Age" placeholder="Enter Age" name="Age" required>
+    <br>
+
+    <label for="cl"><b>College Name</b></label>
+    <input type="college_name" placeholder="College Name" name="cl" required>
+    <br>
+
+        
+    <button type="submit">Login</button>
+    <label>
+      <input type="checkbox" unchecked="unchecked" name="remember"> Remember me
+    </label>
+  </div>
+
+  <div class="container" style="background-color:#a39797">
+    <button type="button" class="cancelbtn">Cancel</button>
+    <span class="psw">Forgot <a href="#">password?</a></span>
+  </div>
+</form>
+
+</body>
+</html>
