@@ -1,0 +1,65 @@
+{% extends 'base.html' %}
+{% block title %}
+Team
+{% endblock title %}
+{% block body %}
+<div  class="container-fluid px-0">
+    <div id="carouselExampleCaptions" class="carousel slide" data-ride="carousel">
+        <ol class="carousel-indicators">
+          <li data-target="#carouselExampleCaptions" data-slide-to="0" class="active"></li>
+        </ol>
+        <div class="carousel-inner">
+          <div class="carousel-item active">
+            <img src="/static/img/webinar.jpg" class="d-block w-100 h-25" alt="webinars links">
+            <div class="carousel-caption d-none d-md-block">
+              <h5 style="background: black; border-radius:23px">Hello User</h5>
+              <p style="background: black; border-radius:23px">Welcome to the Webinar section here you will get all the upcoming webinars.</p>
+            </div>
+          </div>
+        </div>
+
+        <div class="container my-3">
+            <h1 class="my-4 text-center" ><i>Below are the upcoming Webinars</i></h1>
+                  <div class="row row-cols-1 row-cols-sm-2 row-cols-md-3 g-3">
+                    
+            <div class="col">
+                <div class="card shadow-sm">
+                  <img src="/static/img/devjam.png" class="d-block w-100" alt="...">
+                  <div class="card-body">
+                    <p class="card-text">DevJams is one of a kind hackathon conducted by Google Developer Student Clubs VIT every year to encourage tech enthusiasts from across the country to develop their ideas for the future.
+                      <a href="https://devjams.hackerearth.com/">Register here</a>
+                      
+                    </p>
+                    <div class="d-flex justify-content-between align-items-center">
+                      <div class="btn-group">
+                      
+                      </div>
+                    
+                    </div>
+                  </div>
+                </div>
+              </div>
+  
+              <div class="col">
+                  <div class="card shadow-sm">
+                    <img src="/static/img/google.webp" class="d-block w-100" alt="...">
+                    <div class="card-body">
+                      <p class="card-text">Introduction to web3, blockchain 101, career opportunities in web3 and much more
+                        <a href="https://gdsc.community.dev/events/#/list">See here</a>
+                        
+                      </p>
+                      <div class="d-flex justify-content-between align-items-center">
+                        <div class="btn-group">
+                        
+                        </div>
+                      
+                      </div>
+                    </div>
+                  </div>
+                </div>
+
+      </div>
+</div>
+{% endblock body %}
+
+

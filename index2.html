@@ -1,0 +1,140 @@
+{% extends 'base.html' %}
+{% block title %}
+Team
+{% endblock title %}
+{% block body %}
+    <div  class="container-fluid px-0">
+        <div id="carouselExampleCaptions" class="carousel slide" data-ride="carousel">
+            <ol class="carousel-indicators">
+              <li data-target="#carouselExampleCaptions" data-slide-to="0" class="active"></li>
+              <li data-target="#carouselExampleCaptions" data-slide-to="1"></li>
+              <li data-target="#carouselExampleCaptions" data-slide-to="2"></li>
+            </ol>
+            <div class="carousel-inner">
+              <div class="carousel-item active">
+                <img src="/static/img/software-result-bg.jpg" class="d-block w-100" alt="...">
+                <div class="carousel-caption d-none d-md-block">
+                  <h5>Hello User</h5>
+                  <p>Welcome to the site Here you will all the information regarding events.</p>
+                </div>
+              </div>
+              <div class="carousel-item">
+                <img src="/static/img/coding.gif" class="d-block w-100" alt="...">
+                <div class="carousel-caption d-none d-md-block">
+                  <h5 style=" background :black ; border-radius: 22px">Welcome to the Site</h5>
+                  <p style="background: black; border-radius: 22px">Put A step forward in your carrer of Programming by participating/attending  coding events </p>
+                </div>
+              </div>
+              <div class="carousel-item">
+                <img src="/static/img/cp.png" class="d-block w-100" alt="...">
+                <div class="carousel-caption d-none d-md-block">
+                  <h5>Master the Competitive Programming</h5>
+                  <p>By participating in coding contests/ competition </p> 
+                </div>
+              </div>
+            </div>
+            <a class="carousel-control-prev" href="#carouselExampleCaptions" role="button" data-slide="prev">
+              <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+              <span class="sr-only">Previous</span>
+            </a>
+            <a class="carousel-control-next" href="#carouselExampleCaptions" role="button" data-slide="next">
+              <span class="carousel-control-next-icon" aria-hidden="true"></span>
+              <span class="sr-only">Next</span>
+            </a>
+          </div>
+    </div>
+
+    
+    <div class="container my-3">
+    <h1 class="my-4 text-center" ><i>Below are the upcoming events</i></h1>
+          <div class="row row-cols-1 row-cols-sm-2 row-cols-md-3 g-3">
+            <div class="col">
+              <div class="card shadow-sm">
+
+                <img src="/static/img/zest.jpg" class="d-block w-100" alt="...">
+
+                <div class="card-body">
+                  <p class="card-text"><a href="https://coepzest.org/">Zest</a>, one of the biggest event organized at COEP in February , this event comprises of
+                    various sports like hockey , table tennis, marathons,etc</p>
+                  <div class="d-flex justify-content-between align-items-center">
+                    <div class="btn-group">
+                      
+                    </div>
+                    
+                  </div>
+                </div>
+              </div>
+            </div>
+            <div class="col">
+              <div class="card shadow-sm">
+
+                <img src="/static/img/singhgad.jpeg" class="d-block w-100" alt="...">
+                <div class="card-body">
+                  <p class="card-text">  <a href="http://www.sinhgadkarandak.org/">Karandak</a> Biggest Fest in Pune Sinhgad Karandak includes Technical, Cultural,Sports and Bussiness Events       
+                    More than 30000 students Sinhgad Karandak hosts more than 30000 students in its Different Events
+                    Prizes worth 20Lacs+ Cash prizes worth more than 20Lacs from Different Events</p>
+                  <div class="d-flex justify-content-between align-items-center">
+                    <div class="btn-group">
+                    
+                    </div>
+                   
+                  </div>
+                </div>
+              </div>
+            </div>
+            <div class="col">
+              <div class="card shadow-sm">
+
+                <img src="/static/img/mitwpu.jpeg" class="d-block w-100" alt="...">
+                <div class="card-body">
+                  <p class="card-text"> <a href="https://mitwpu.edu.in/">MIT-WPU ABHIVYAKTI</a> An Inter College Literary Fest Abhivyakti is an AnnualInter College Literary Festival organised
+                    by the students of MIT-World Peace University, Events such as 'Treasure hunt' and 'Snap hunt' not only make the participant to think and act quickly
+                    but also develop a feeling of competitiveness and physical endurance against time.</p>
+                  <div class="d-flex justify-content-between align-items-center">
+                    <div class="btn-group">
+                    
+                    </div>
+                   
+                  </div>
+                </div>
+              </div>
+            </div>
+            <div class="col">
+              <div class="card shadow-sm">
+
+                <img src="/static/img/ar.png" class="d-block w-100" alt="...">
+    
+                <div class="card-body">
+                  <p class="card-text">AR WORKSHOP BY D.Y.PATIL,AKURDI ,We will be hosting a SparkAR workshop for your students on 27-28 September
+                    Please ask students to register here: <a href="https://reskilll.com/event/learndypatil">AR WORKSHOP</a>
+                  </p>
+                  <div class="d-flex justify-content-between align-items-center">
+                    <div class="btn-group">
+                    </div>
+                   
+                  </div>
+                </div>
+              </div>
+            </div>
+            <div class="col">
+              <div class="card shadow-sm">
+                <img src="/static/img/devjam.png" class="d-block w-100" alt="...">
+                <div class="card-body">
+                  <p class="card-text">DevJams is one of a kind hackathon conducted by Google Developer Student Clubs VIT every year to encourage tech enthusiasts from across the country to develop their ideas for the future.
+                    <a href="https://devjams.hackerearth.com/">Register here</a>
+                    
+                  </p>
+                  <div class="d-flex justify-content-between align-items-center">
+                    <div class="btn-group">
+                    
+                    </div>
+                  
+                  </div>
+                </div>
+              </div>
+            </div>
+
+          </div>
+        </div>
+
+{%endblock body%}
